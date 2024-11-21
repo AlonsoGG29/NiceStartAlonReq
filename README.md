@@ -18,6 +18,7 @@ Permite a los usuarios ingresar sus credenciales de inicio de sesión.
 
 ### Pantalla de Registro
 ![Sign Up](imagenes/signup.png "Pantalla de Registro")
+
 Permite a los usuarios crear una nueva cuenta.
 - Incluye campos para el nombre de usuario, correo electrónico y contraseña.
 - Contiene botones para registrarse y volver a la pantalla de login.
