@@ -134,6 +134,7 @@ public class Main extends AppCompatActivity {
         builder.show();
     }
 
+    //Hay que limpiar
     private void showSnackBar(String message) {
         ConstraintLayout layout = findViewById(R.id.main);
         Snackbar.make(layout, message, Snackbar.LENGTH_SHORT).show();
