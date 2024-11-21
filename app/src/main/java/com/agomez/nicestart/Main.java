@@ -152,3 +152,7 @@ public class Main extends AppCompatActivity {
         Toast.makeText(this, message, Toast.LENGTH_LONG).show();
     }
 }
+
+// HAY QUE ESCRIBIR ESTO PARA CAMBIAR DE URL
+//git remote -v
+//git remote set url origin https://github.com/AlonsoGG29/NiceStart.git
