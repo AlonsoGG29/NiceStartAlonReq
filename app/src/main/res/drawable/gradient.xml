@@ -5,4 +5,10 @@
         android:endColor="@color/azulMarino"
         android:angle="270">
     </gradient>
+
+    <gradient
+        android:startColor="@color/black"
+        android:endColor="@color/tlou"
+        android:angle="90">
+    </gradient>
 </shape>
