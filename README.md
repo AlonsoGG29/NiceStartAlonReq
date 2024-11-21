@@ -17,6 +17,7 @@ Permite a los usuarios ingresar sus credenciales de inicio de sesión.
 
 
 ### Pantalla de Registro
+![Sign Up](imagenes/signup.png "Pantalla de Registro")
 Permite a los usuarios crear una nueva cuenta.
 - Incluye campos para el nombre de usuario, correo electrónico y contraseña.
 - Contiene botones para registrarse y volver a la pantalla de login.
@@ -24,19 +25,34 @@ Permite a los usuarios crear una nueva cuenta.
 
 
 ### Pantalla Principal (Main)
-Es la pantalla a la que se redirige después de un login.
-- Simplemente no permite regresar a la pantalla de Login.
+![Principal](imagenes/inicio.png "Pantalla Principal")
+Se accede entrando desde el login, o bien desde la pantalla de Sign Up.
+- No permite regresar a la pantalla de Login.
 
 
 
 ### Pantalla Splash
+![Splash](imagenes/splash.png "Pantalla de Carga")
 Se trata de una interfaz donde el propio logo parpadea, dándole una animación sencilla.
 
 
 
+### Menú 1: Ventana
+![Profile](imagenes/menuuno.png "Menu del Perfil")
+Es un primer menú que abrirá una ventana emergente. Entre las 2 opciones, si damos a "Scrolling", nos enviará a otra pantalla (en este momento de vuelta al Login).
+
+
+
+### Menú 2: Perfil, ajustes y copiar
+![Profile](imagenes/menudos.png "Menu del Perfil")
+El 2º menú nos da a elegir 3 opciones.
+- Primera opción: Perfil. Si clicamos nos enviará a la pantalla "Profile"
+- Segunda y tercera opción: Ajustes y Copiar: Al clicar nos pone un mensaje emergente en la parte inferior.
+
+
+
 ### Pantalla Profile
+![Profile](imagenes/perfil.png "Menu del Perfil")
 Esta pantalla muestra la foto de perfil de manera circular, nombre, descripción y correo.
 
 
-
-LA PRUEBA DEFINITIVA SIU
