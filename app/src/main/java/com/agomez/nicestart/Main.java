@@ -23,6 +23,7 @@ import com.google.android.material.dialog.MaterialAlertDialogBuilder;
 import com.google.android.material.snackbar.Snackbar;
 
 public class Main extends AppCompatActivity {
+
     private WebView miVisorWeb;
     private SwipeRefreshLayout swipeLayout;
 
@@ -58,7 +59,7 @@ public class Main extends AppCompatActivity {
         miVisorWeb.loadUrl("https://definicion.com/wp-content/uploads/2022/09/imagen.jpg.webp");
     }
 
-    private void setupSwipeRefresh() {
+    private void setupSwipeRefresh() {                          //Navigation: SwipeRefresh
         swipeLayout = findViewById(R.id.myswipe);
         swipeLayout.setOnRefreshListener(() -> {
             showSnackBar("Fancy a Snack while you refresh?");
@@ -68,7 +69,7 @@ public class Main extends AppCompatActivity {
     }
 
     @Override
-    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) {
+    public void onCreateContextMenu(ContextMenu menu, View v, ContextMenu.ContextMenuInfo menuInfo) { //Navigation: Menu appbar
         getMenuInflater().inflate(R.menu.menu_appbar, menu);
     }
 
