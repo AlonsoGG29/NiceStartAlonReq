@@ -8,9 +8,9 @@
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
         android:fullBackupContent="@xml/backup_rules"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/app_logo_badm"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/app_logo_badm_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.NiceStart"
         tools:targetApi="31">
@@ -26,21 +26,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity
-            android:name=".profile"
-            android:exported="true" />
+
         <activity
             android:name=".Main"
             android:exported="true"
             android:theme="@style/Theme.NiceStart.ActionBar" />
+
         <activity
             android:name=".Signup"
             android:exported="true"
             android:parentActivityName=".Login"
             android:theme="@style/Theme.NiceStart.ActionBar" />
+
         <activity
             android:name=".Login"
-            android:exported="true"></activity>
+            android:exported="true">
+        </activity>
 
         <meta-data
             android:name="preloaded_fonts"
